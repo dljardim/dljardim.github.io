@@ -4,7 +4,7 @@
 - Email: dljardim@outlook.com
 - Phone: 404-641-6913
 - Location: Panama City Beach, FL
-- LinkedIn: [[linkedin.com/in/damian_jardim/](https://www.linkedin.com/in/damianjardim/)](https://www.linkedin.com/in/damianjardim/)
+- LinkedIn: [[linkedin.com/in/damian_jardim/](https://www.linkedin.com/in/damianjardim/)]
 - GitHub: [github.com/dljardim](https://github.com/dljardim)
 
 ## FullStack .NET Core / React Web Developer

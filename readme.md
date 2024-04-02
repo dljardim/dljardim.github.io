@@ -9,9 +9,9 @@
 
 ## FullStack .NET Core / React Web Developer
 
-Dedicated developer with enterprise experience in creating software solutions that consistently exceed customer expectations. High level of proficiency in using .Net Core/WebAPI for server-side web development, and javascript for UI-focused front-end development. I am passionate about leveraging modern tools to improve performance, and researching new techniques and processes that can enhance the customer experience and establish a more stable code base for future enhancement projects.
+Dedicated developer with enterprise experience in creating software solutions that consistently exceed customer expectations. High level of proficiency in using .Net Core/WebAPI for server-side web development, and javascript for UI-focused front-end development. Passionate about leveraging modern tools to improve performance, and researching new techniques and processes that can enhance the customer experience and establish a more stable code base for future enhancement projects.
 
-Comfortable working both as part of a team and independently, and I have past experience working onsite and remotely.
+Comfortable working both as part of a team and independently. Past experience working onsite and remotely.
 ### SKILLS
 
 #### Front-end

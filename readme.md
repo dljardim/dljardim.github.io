@@ -1,16 +1,17 @@
 
 # Damian Jardim
 
-- Email: djardimjob@outlook.com
-- Phone: 111-111-1111
+- Email: dljardim@outlook.com
+- Phone: 404-641-6913
 - Location: Panama City Beach, FL
 - LinkedIn: [linkedin.com/in/damian_jardim/](www.linkedin.com/in/damian_jardim/)
 - GitHub: [github.com/dljardim](https://github.com/dljardim)
 
 ## FullStack .NET Core / React Web Developer
 
-Skilled software developer with expertise in .NET Core, ASP.NET MVC, C#, JavaScript, Blazor, React, SQL Server, and other technologies. Experienced in creating large-scale projects at Southern Company and the Center For Disease Control. Strong ability to communicate and collaborate with teams to achieve project goals.
+Dedicated developer with enterprise experience in creating software solutions that consistently exceed customer expectations. High level of proficiency in using .Net Core/WebAPI for server-side web development, and javascript for UI-focused front-end development. I am passionate about leveraging modern tools to improve performance, and researching new techniques and processes that can enhance the customer experience and establish a more stable code base for future enhancement projects.
 
+Comfortable working both as part of a team and independently, and I have past experience working onsite and remotely.
 ### SKILLS
 
 #### Front-end

@@ -1,0 +1,402 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>CV - Ocat</title>
+  <link rel="icon" href="./img/favicon.ico">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
+  <!-- <link rel="stylesheet" href="ex3.css"> -->
+
+  <style>
+
+@import url('https://fonts.googleapis.com/css?family=Raleway');
+
+body {
+  margin: 0;
+  font-family: 'Raleway';
+  font-size: 16px;
+  line-height: 1.8em;
+}
+
+a {
+  color: #1C9C94;
+  text-decoration: none;
+}
+
+a:hover {
+  opacity: 0.5;
+}
+
+article {
+  padding:0 1em;
+}
+
+section{
+  margin: 1em;
+  padding: 1em;
+}
+
+header, main, .footer-container {
+  margin: 0 auto;
+}
+
+.company {
+  color:yellow;
+  background-color: orange;
+}
+
+header {
+  padding: 2em;
+  text-align: center;
+  background-image: url('./img/bg.jpg');
+  background-size: cover;
+  background-position: fixed;
+  color: white;
+}
+
+header section {
+  margin: 0 auto;
+  max-width: 640px;
+}
+
+header img {
+  border-radius: 50%;
+  max-width: 150px;
+}
+
+h1 {
+  text-transform: uppercase;
+  margin: 1em .2em 0;
+}
+
+h3 {
+  text-transform: uppercase;
+}
+
+h3, h4 {
+  font-weight: bold;
+}
+
+main {
+  max-width: 1140px;
+}
+
+main section:not(:last-child) {
+  border-bottom: 1px solid #ccc;
+}
+
+.fab {
+  border: 1px solid white;
+  border-radius: 50%;
+  font-size: 1.5em;
+  width: 1.5em;
+  height: 1.5em;
+  line-height: 1.5em;
+  margin: 5px;
+  text-align: center;
+}
+
+a .fab {
+  color: white;
+}
+
+.stack{
+  font-size: 1rem;
+}
+
+.indent{
+  
+  list-style-type: none;
+  
+  padding-left: 1rem;
+  /* margin: 1px solid red;  */
+  /* font-size: .8rem; */
+}
+
+.course, .skills {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+}
+
+.course .title {
+  color: #509e98;
+  -ms-flex: 0 0 33.3%;
+  flex: 0 0 33.3%;
+  max-width: 33%;
+  line-height: .5;
+
+}
+
+.course .descrition {
+  -ms-flex: 0 0 66.6%;
+  flex: 0 0 66.6%;
+  max-width: 66.6%;
+}
+
+.course .descrition p {
+  padding-left: 1em;
+}
+
+.skills .column {
+  -ms-flex: 0 0 50%%;
+  flex: 0 0 50%;
+  max-width: 50%;
+}
+
+.skills .column ul, ul.job-description {
+  list-style-type: none;
+}
+
+.skills .column ul > li:before {
+  content: "►";
+  padding-right: 0.5em;
+  color: #509e98;
+}
+
+.school, .job-title {
+  text-transform: capitalize;
+}
+
+.school span, .job-title span {
+  color: #889499;
+  text-decoration: underline;
+}
+
+ul.job-description li:before{
+  content: "✔";
+  padding-right: 0.5em;
+  color: #509e98;
+}
+
+.footer-container {
+  display:flex;
+  flex-direction: row;
+  /* align-items: center; */
+  justify-content: center;
+  
+ padding: 1em 1.5em;
+ background-color: #a7b9bf;
+ 
+ color: white;
+ /* text-align: center; */
+}
+
+.footer-container-item{
+  padding: 1.5rem 1rem;
+
+}
+
+@media only screen and (max-width: 768px) {
+  .course {
+    display: block;
+  }
+
+  .course .title, .course .descrition {
+    max-width: 100%;
+  }
+}
+
+@media only screen and (max-width: 576px) {
+  .skills {
+    display: block;
+  }
+
+  .skills .column {
+    max-width: 100%;
+  }
+
+  .footer-container {
+    /* text-align: center; */
+  }
+}
+  </style>
+</head>
+
+<body>
+  <header>
+    <div>
+      <img src="./img/avatar.jpg" />
+    </div>
+    <h1>Damian Jardim</h1>
+    <h2 class="stack">.NET CORE / REACT DEVELOPER</h2>
+
+    <section>
+      <div class="compact">
+        <p class="compact">Experienced Developer with 10 years of experience specializing in .NET Core and React Web Applications. Proven track record of successful project completion with in-depth knowledge of Modern Application Development.</p>
+        <p>| Panama City, Florida  |  404-641-6913  |  djardim.work@gmail.com |</p>
+        
+      </div>
+      
+      <a href="https://www.facebook.com/dljardim/" target="_blank">
+        <i class="fab fa-facebook-f"></i>
+      </a>
+      <a href="https://www.x.com/Damian_Jardim/" target="_blank">
+        <i class="fab fa-twitter"></i>
+      </a>
+      <a href="https://github.com/dljardim" target="_blank">
+        <i class="fab fa-github-alt"></i>
+      </a>
+      
+      <a href="https://www.linkedin.com/in/damianjardim/" target="_blank">
+        <i class="fab fa-linkedin-in"></i>
+      </a>
+
+      
+    </section>
+
+
+  </header>
+  <main>
+
+    <section>
+      <h3>Skills</h3>
+      <div class='skills'>
+        <div class='column'>
+          <h4>FRONTEND</h4>
+          <ul>
+            <li>.NET Core MVC / Razor Pages / Blazor</li>
+            <li>Javascript</li>
+            <li>CSS</li>
+            <li>React</li>
+            <li>Bootstrap</li>
+          </ul>
+        </div>
+        <div class='column'>
+          <h4>BACKEND</h4>
+          <ul>
+            <li>Entity Framework</li>
+            <li>.NET Web API</li>
+            <li>ADO.NET</li>
+            <li>Microsoft SQL Server</li>
+            <li>Oracle</li>
+
+          </ul>
+        </div>
+        
+      </div>
+    </section>
+
+    <section>
+      <h3>Achievements</h3>
+      <article>
+        <div class=''>
+          <p>Core team member in the development and support of Southern Company's Web and Mobile Application bill pay system contributing to the current company revenue of 29.27 Billion in 2022.</p>
+          <p>Improved QuickParts price generation module and company website resulting in 25% reduction of time required for a customer to upload a CAD file, generate a price and checkout.</p>
+          <p>Earned 95% Customer Satisfaction while acting as managing the development, deployments, and support of 4 applications within Center For Disease Control (NCEH/ATSDR) - EHPM, Project Profile, CRT, and Sequoia.</p>
+        </div>
+      </article>
+     
+
+    <section>
+      <h3>Experience</h3>
+      <article class='course'>
+        <div class='title'>
+          <h4>Freelance / Independent </h4>
+            <p class="indent">App Developer</p>
+            <p class="indent">2022 - Current</p>
+        </div>
+        <div class="descrition">
+          <ul>
+            <li>Use Figma to create web and mobile applications.</li>
+            <li>Focused learning on .NET core and ReactJS</li>
+            <li>Registered IOS Developer.  Convert Desktop applications into mobile applications using Swift.</li>
+          </ul>
+        </div>
+      </article>
+
+      <article class='course'>
+        <div class='title'>
+          <h4>PSA Inc. </h4>
+            <p class="indent">CMPRO Web Developer</p>
+            <p class="indent">2019 - 2021</p>
+        </div>
+        <div class="descrition">
+          <ul>
+            <li>Create new customer specific frontend prototype using ExtJs Javascript library.</li>
+            <li>Used visual studio code to Develop a combination of ColdFusion components, custom tags, advanced CFML, JavaScript, JQuery, ExtJS, HTML and CSS. </li>
+            <li>Created stored database objects, functions, procedures, packages, triggers for Oracle Database Server databases usingPL SQL.</li>
+            <li>Improved code quality by contributing to and following company style guide and best practice templates.</li>
+            <li>Completed Daily Development activities code reviews, hot fixes, level of estimates, testing, and creation of documentation.</li>
+            <li>Developed using GitHub Enterprise and Jenkins to quickly swap between feature requests, hot fixes, and past releases.</li>
+          </ul>
+
+        </div>
+      </article>
+      <article class='course'>
+        <div class='title'>
+          <h4>Blended Ventures </h4>
+            <p class="indent">Full Stack .NET / JS Developer</p>
+            <p class="indent">2015 - 2019</p>
+        </div>
+        <div class="descrition">
+          <ul>
+            <li>Immediately improved the stability of .NET application by diagnosing and rectifying thread pool exhaustion issues.</li>
+            <li>Create and support applications using C#, JavaScript, React, and ASP.NET MVC.</li>
+            <li>Acting administrator and database owner of a number of NCEH/ATSDR software applications.</li>
+            <li>Archived and Retired legacy systems. Update project plans and provide progress reports to application owners.</li>
+            <li>Updated technical, operational, and security documentation including Operation Analysis documentation and Security PII documentation.</li>
+            <li>Resolved all web application security issues reported by IBM Security AppScan.</li>
+            <li>Completed data import and export tasks using SQLServer SSIS packages and SQL scripts.</li>
+            <li>Constructed user reports through SSRS and SSMS query results. </li>
+            <li>Increased system uptime by 25% by diagnosing and resolving thread pool exhaustion issues.</li>
+          </ul>
+        </div>
+      </article>
+
+
+      <article class='course'>
+        <div class='title'>
+          <h4>Southern Company </h4>
+            <p class="indent">Full Stack .NET Developer</p>
+            <p class="indent">2007 - 2014</p>
+        </div>
+        <div class="descrition">
+          <ul>
+            <li>Worked collaboratively with a cross functional team to develop and maintain software applications.</li>
+            <li>Completed construction of a MVC mobile application using JQuery Mobile and responsive webdesign.</li>
+            <li>Completed the conversion of a legacy application to use the .NET Framework.</li>
+            <li>Supported the creation of an ASP.NET Web Application to display Maximo data.</li>
+            <li>Developed custom user reports and data models used in Sql Server Reporting Services.</li>
+            <li>Updated SSIS packages handling large scale data transfer between systems internal and external systems.</li>
+            <li>Accomplished numerous releases of a high traffic, public facing, billing web application.</li>
+          </ul>
+        </div>
+      </article>
+      
+    </section>
+  
+
+    <section>
+      <h3>Education</h3>
+      <article>
+        <div class='school'>
+          <strong>University of Georgia</strong>
+        </div>
+        <div class="descrition">
+          Biochemistry and Molecular Biology
+        </div>
+      </article>
+     
+    </section>
+    <section>
+      <h3>Certifications and Training</h3>
+      <article>
+        <div class='job-title'>
+          <strong>Microsoft Certified Technology Specialist Certification</strong>
+        </div>
+        
+      </article>
+    </section>
+  </main>
+  <footer>
+    <div class="footer-container">
+    <div class="footer-container-item">DAMIAN JARDIM</div>
+    <div class="footer-container-item">DJARDIM.WORK@GMAIL.COM</div>
+    <div class="footer-container-item">404-641-6913</div>
+    </div>
+  </footer>
+</body>
+</html>

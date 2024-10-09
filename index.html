@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html>
 <head>
@@ -5,227 +6,84 @@
   <title>CV - Ocat</title>
   <link rel="icon" href="./img/favicon.ico">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
-  <!-- <link rel="stylesheet" href="ex3.css"> -->
 
   <style>
 
-@import url('https://fonts.googleapis.com/css?family=Raleway');
+/* ******************************************************* */
+/* ******************************************************* */
 
-body {
-  margin: 0;
-  font-family: 'Raleway';
-  font-size: 16px;
-  line-height: 1.8em;
-}
+  /*
+    1. Use a more-intuitive box-sizing model.
+  */
+  *, *::before, *::after {
+    box-sizing: border-box;
+  }
 
-a {
-  color: #1C9C94;
-  text-decoration: none;
-}
+  /*
+    2. Remove default margin
+  */
+  * {
+    margin: 0;
+  }
 
-a:hover {
-  opacity: 0.5;
-}
+  /*
+    Typographic tweaks!
+    3. Add accessible line-height
+    4. Improve text rendering
+  */
+  body {
+    line-height: 1.5;
+    -webkit-font-smoothing: antialiased;
+  }
 
-article {
-  padding:0 1em;
-}
-
-section{
-  margin: 1em;
-  padding: 1em;
-}
-
-header, main, .footer-container {
-  margin: 0 auto;
-}
-
-.company {
-  color:yellow;
-  background-color: orange;
-}
-
-header {
-  padding: 2em;
-  text-align: center;
-  background-image: url('./assets/img/bg.jpg');
-  background-size: cover;
-  background-position: fixed;
-  color: white;
-}
-
-header section {
-  margin: 0 auto;
-  max-width: 640px;
-}
-
-header img {
-  border-radius: 50%;
-  max-width: 150px;
-}
-
-h1 {
-  text-transform: uppercase;
-  margin: 1em .2em 0;
-}
-
-h3 {
-  text-transform: uppercase;
-}
-
-h3, h4 {
-  font-weight: bold;
-}
-
-main {
-  max-width: 1140px;
-}
-
-main section:not(:last-child) {
-  border-bottom: 1px solid #ccc;
-}
-
-.fab {
-  border: 1px solid white;
-  border-radius: 50%;
-  font-size: 1.5em;
-  width: 1.5em;
-  height: 1.5em;
-  line-height: 1.5em;
-  margin: 5px;
-  text-align: center;
-}
-
-a .fab {
-  color: white;
-}
-
-.stack{
-  font-size: 1rem;
-}
-
-.indent{
-  
-  list-style-type: none;
-  
-  padding-left: 1rem;
-  /* margin: 1px solid red;  */
-  /* font-size: .8rem; */
-}
-
-.course, .skills {
-  display: -ms-flexbox;
-  display: flex;
-  -ms-flex-wrap: wrap;
-  flex-wrap: wrap;
-}
-
-.course .title {
-  color: #509e98;
-  -ms-flex: 0 0 33.3%;
-  flex: 0 0 33.3%;
-  max-width: 33%;
-  line-height: .5;
-
-}
-
-.course .descrition {
-  -ms-flex: 0 0 66.6%;
-  flex: 0 0 66.6%;
-  max-width: 66.6%;
-}
-
-.course .descrition p {
-  padding-left: 1em;
-}
-
-.skills .column {
-  -ms-flex: 0 0 50%%;
-  flex: 0 0 50%;
-  max-width: 50%;
-}
-
-.skills .column ul, ul.job-description {
-  list-style-type: none;
-}
-
-.skills .column ul > li:before {
-  content: "►";
-  padding-right: 0.5em;
-  color: #509e98;
-}
-
-.school, .job-title {
-  text-transform: capitalize;
-}
-
-.school span, .job-title span {
-  color: #889499;
-  text-decoration: underline;
-}
-
-ul.job-description li:before{
-  content: "✔";
-  padding-right: 0.5em;
-  color: #509e98;
-}
-
-.footer-container {
-  display:flex;
-  flex-direction: row;
-  /* align-items: center; */
-  justify-content: center;
-  
- padding: 1em 1.5em;
- background-color: #a7b9bf;
- 
- color: white;
- /* text-align: center; */
-}
-
-.footer-container-item{
-  padding: 1.5rem 1rem;
-
-}
-
-@media only screen and (max-width: 768px) {
-  .course {
+  /*
+    5. Improve media defaults
+  */
+  img, picture, video, canvas, svg {
     display: block;
-  }
-
-  .course .title, .course .descrition {
-    max-width: 100%;
-  }
-}
-
-@media only screen and (max-width: 576px) {
-  .skills {
-    display: block;
-  }
-
-  .skills .column {
     max-width: 100%;
   }
 
-  .footer-container {
-    /* text-align: center; */
+  /*
+    6. Remove built-in form typography styles
+  */
+  input, button, textarea, select {
+    font: inherit;
   }
-}
+
+  /*
+    7. Avoid text overflows
+  */
+  p, h1, h2, h3, h4, h5, h6 {
+    overflow-wrap: break-word;
+  }
+
+  /*
+    8. Create a root stacking context
+  */
+  #root, #__next {
+    isolation: isolate;
+  }
+
+/* ******************************************************* */
+/* ******************************************************* */
+
+    
+
   </style>
 </head>
 
 <body>
-  <header>
+  <header >
     <div>
       <img src="./img/avatar.jpg" />
     </div>
     <h1>Damian Jardim</h1>
-    <h2 class="stack">.NET CORE / REACT DEVELOPER</h2>
+    <h2>.NET CORE / REACT DEVELOPER</h2>
 
     <section>
-      <div class="compact">
-        <p class="compact">Experienced Developer with 10 years of experience specializing in .NET Core and React Web Applications. Proven track record of successful project completion with in-depth knowledge of Modern Application Development.</p>
+      <div>
+        <p>Experienced Developer with 10 years of experience specializing in .NET Core and React Web Applications. Proven track record of successful project completion with in-depth knowledge of Modern Application Development.</p>
         <p>| Panama City, Florida  |  404-641-6913  |  djardim.work@gmail.com |</p>
         
       </div>
@@ -253,8 +111,8 @@ ul.job-description li:before{
 
     <section>
       <h3>Skills</h3>
-      <div class='skills'>
-        <div class='column'>
+      <div>
+        <div>
           <h4>FRONTEND</h4>
           <ul>
             <li>.NET Core MVC / Razor Pages / Blazor</li>
@@ -264,7 +122,7 @@ ul.job-description li:before{
             <li>Bootstrap</li>
           </ul>
         </div>
-        <div class='column'>
+        <div>
           <h4>BACKEND</h4>
           <ul>
             <li>Entity Framework</li>
@@ -282,7 +140,7 @@ ul.job-description li:before{
     <section>
       <h3>Achievements</h3>
       <article>
-        <div class=''>
+        <div>
           <p>Core team member in the development and support of Southern Company's Web and Mobile Application bill pay system contributing to the current company revenue of 29.27 Billion in 2022.</p>
           <p>Improved QuickParts price generation module and company website resulting in 25% reduction of time required for a customer to upload a CAD file, generate a price and checkout.</p>
           <p>Earned 95% Customer Satisfaction while acting as managing the development, deployments, and support of 4 applications within Center For Disease Control (NCEH/ATSDR) - EHPM, Project Profile, CRT, and Sequoia.</p>
@@ -292,13 +150,13 @@ ul.job-description li:before{
 
     <section>
       <h3>Experience</h3>
-      <article class='course'>
-        <div class='title'>
+      <article>
+        <div>
           <h4>Freelance / Independent </h4>
-            <p class="indent">App Developer</p>
-            <p class="indent">2022 - Current</p>
+            <p>App Developer</p>
+            <p>2022 - Current</p>
         </div>
-        <div class="descrition">
+        <div>
           <ul>
             <li>Use Figma to create web and mobile applications.</li>
             <li>Focused learning on .NET core and ReactJS</li>
@@ -307,13 +165,13 @@ ul.job-description li:before{
         </div>
       </article>
 
-      <article class='course'>
-        <div class='title'>
+      <article>
+        <div>
           <h4>PSA Inc. </h4>
-            <p class="indent">CMPRO Web Developer</p>
-            <p class="indent">2019 - 2021</p>
+            <p>CMPRO Web Developer</p>
+            <p>2019 - 2021</p>
         </div>
-        <div class="descrition">
+        <div>
           <ul>
             <li>Create new customer specific frontend prototype using ExtJs Javascript library.</li>
             <li>Used visual studio code to Develop a combination of ColdFusion components, custom tags, advanced CFML, JavaScript, JQuery, ExtJS, HTML and CSS. </li>
@@ -325,13 +183,13 @@ ul.job-description li:before{
 
         </div>
       </article>
-      <article class='course'>
-        <div class='title'>
+      <article>
+        <div>
           <h4>Blended Ventures </h4>
-            <p class="indent">Full Stack .NET / JS Developer</p>
-            <p class="indent">2015 - 2019</p>
+            <p>Full Stack .NET / JS Developer</p>
+            <p>2015 - 2019</p>
         </div>
-        <div class="descrition">
+        <div>
           <ul>
             <li>Immediately improved the stability of .NET application by diagnosing and rectifying thread pool exhaustion issues.</li>
             <li>Create and support applications using C#, JavaScript, React, and ASP.NET MVC.</li>
@@ -347,13 +205,13 @@ ul.job-description li:before{
       </article>
 
 
-      <article class='course'>
-        <div class='title'>
+      <article>
+        <div>
           <h4>Southern Company </h4>
-            <p class="indent">Full Stack .NET Developer</p>
-            <p class="indent">2007 - 2014</p>
+            <p>Full Stack .NET Developer</p>
+            <p>2007 - 2014</p>
         </div>
-        <div class="descrition">
+        <div>
           <ul>
             <li>Worked collaboratively with a cross functional team to develop and maintain software applications.</li>
             <li>Completed construction of a MVC mobile application using JQuery Mobile and responsive webdesign.</li>
@@ -372,10 +230,10 @@ ul.job-description li:before{
     <section>
       <h3>Education</h3>
       <article>
-        <div class='school'>
+        <div>
           <strong>University of Georgia</strong>
         </div>
-        <div class="descrition">
+        <div>
           Biochemistry and Molecular Biology
         </div>
       </article>
@@ -384,7 +242,7 @@ ul.job-description li:before{
     <section>
       <h3>Certifications and Training</h3>
       <article>
-        <div class='job-title'>
+        <div>
           <strong>Microsoft Certified Technology Specialist Certification</strong>
         </div>
         
@@ -392,10 +250,10 @@ ul.job-description li:before{
     </section>
   </main>
   <footer>
-    <div class="footer-container">
-    <div class="footer-container-item">DAMIAN JARDIM</div>
-    <div class="footer-container-item">DJARDIM.WORK@GMAIL.COM</div>
-    <div class="footer-container-item">404-641-6913</div>
+    <div>
+    <div>DAMIAN JARDIM</div>
+    <div>DJARDIM.WORK@GMAIL.COM</div>
+    <div>404-641-6913</div>
     </div>
   </footer>
 </body>
